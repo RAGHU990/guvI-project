@@ -10,7 +10,7 @@ $(document).ready(function() {
                 var jsonData = JSON.parse(response);
                 if (jsonData.success == "1")
                 {
-                    location.href = 'home.php';
+                    location.href = 'index.php';
                 }
                 else
                 {

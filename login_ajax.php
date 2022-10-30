@@ -2,10 +2,10 @@
 // Initialize the session
 session_start();
  
-// Check if the user is already logged in, if yes then redirect him to welcome page
+// Check if the user is already logged in, if yes then redirect him to index page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     echo json_encode(array('success' => 0));
-    header("location: home.php");
+    header("location: index.php");
     exit;
 }
  
@@ -64,8 +64,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["id"] = $id;
                             $_SESSION["username"] = $username;                            
                             echo json_encode(array('success' => 1));
-                            // Redirect user to home page
-                            // header("location: home.php");
+                            
                         } else{
                             // Password is not valid, display a generic error message
                             // $login_err = "Invalid username or password.";
