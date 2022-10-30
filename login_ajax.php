@@ -4,6 +4,7 @@ session_start();
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+    echo json_encode(array('success' => 0));
     header("location: home.php");
     exit;
 }
@@ -73,10 +74,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     }
                 } else{
                     // Username doesn't exist, display a generic error message
-                    $login_err = "Invalid username or password.";
+                    //$login_err = "Invalid username or password.";
+                    echo json_encode(array('success' => 0));
+
                 }
             } else{
-                echo "Oops! Something went wrong. Please try again later.";
+               // echo "Oops! Something went wrong. Please try again later.";
+                echo json_encode(array('success' => 0));
+
             }
 
             // Close statement
