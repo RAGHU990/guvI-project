@@ -2,61 +2,7 @@
     {
         "id": "1",
         "username": "test_user_1",
-        "password": "$2y$10$S8GpB8khK4RRYAUeatEQFO6TV2GOZFtuQkjdgNv\/Wku9THvrknea6",
-        "created_at": "2022-10-30 14:10:20"
-    },
-    {
-        "id": "2",
-        "username": "raghu",
-        "password": "$2y$10$434LTeon0EMB74TZZ\/\/oQesY7iwuq.hN\/iqstqzRO\/YM2U0.Z2VQ.",
-        "created_at": "2022-10-30 18:07:02"
-    },
-    {
-        "id": "3",
-        "username": "test_user_2",
-        "password": "$2y$10$fyu9hZ89oDtkdKCoF6MtmeLBoJINrCFka3rk7qs1IlWTFb\/P7cDmu",
-        "created_at": "2022-10-30 19:36:26"
-    },
-    {
-        "id": "4",
-        "username": "test_user_33",
-        "password": "$2y$10$CuRbQvl2ZbQ4fbRbJ\/M1KOS7cgot8CXLbYA0uf0FECna9cx97sPyu",
-        "created_at": "2022-10-30 19:40:57"
-    },
-    {
-        "id": "5",
-        "username": "test_user_44",
-        "password": "$2y$10$TgpkgRhNdCGYtZIh\/xAPvuFvTBXIWmouBPuT6\/uv2Qb0ZChH2xHC.",
-        "created_at": "2022-10-30 19:45:41"
-    },
-    {
-        "id": "6",
-        "username": "test_user_31",
-        "password": "$2y$10$674kQh1DI0l4n.K92zR5v.QYwxxy6K0Z8f8TUe3n.ccD0MPQ5Nku.",
-        "created_at": "2022-10-30 19:47:28"
-    },
-    {
-        "id": "7",
-        "username": "test_user_21",
-        "password": "$2y$10$HbLQL6cS7yT35gOHZu\/yve7e6yF45CZl5bG5CkQxUk8P31cwOBw6S",
-        "created_at": "2022-10-30 19:47:51"
-    },
-    {
-        "id": "8",
-        "username": "test_user_37",
-        "password": "$2y$10$YC3oRbYyAtnCVunqu9xPge2bn5g0.iROfhSHhTIcQXkKH9qkzqnS6",
-        "created_at": "2022-10-30 19:49:16"
-    },
-    {
-        "id": "9",
-        "username": "test_user_41",
-        "password": "$2y$10$o\/UPcp.WXQ\/gs9nZBaBqEOqh3rre0dRhUksYiASIhAwAioLKDsbbS",
-        "created_at": "2022-10-31 14:41:00"
-    },
-    {
-        "id": "10",
-        "username": "test_user_42",
-        "password": "$2y$10$oLROFMHSqA2uIX4YykzIn.PMIflOTn2dDnw\/ZR9n0HLXaaQmzFO9u",
-        "created_at": "2022-10-31 14:41:47"
+        "password": "$2y$10$4urcFn83RIraqN.s106r.eG4ibJpkhN6CLpZMPHoBqVMy46OX9w9G",
+        "created_at": "2022-10-31 15:09:10"
     }
 ]
