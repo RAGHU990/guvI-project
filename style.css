@@ -5,7 +5,11 @@
     border-color: white;
     border-style: solid;
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+ .text {
+  text-align:center;
+ }
 
   
   @keyframes backgroundScroll {
@@ -22,7 +26,7 @@
   }
   
   body {
-      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background: linear-gradient(-45deg, #99cc00, #e73c7e, #23a6d5, #23d5ab);
       background-size: 400% 400%;
       animation: gradient 15s ease infinite;
   }
@@ -39,5 +43,28 @@
       }
   }
 
+h2 {
+  text-align: center;
+  color:white;
+}
+a {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.signup {
+  font-weight: bold;
+  text-color:white;
+}
+
+label {
+  color:white;
+  font-weight: bold;
+}
 
   
+p {
+  color:white;
+  font-weight: bold;
+}
