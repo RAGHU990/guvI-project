@@ -82,6 +82,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
+                
                echo json_encode(array('success' => 1));
             } else{
                 echo json_encode(array('success' => 0));
