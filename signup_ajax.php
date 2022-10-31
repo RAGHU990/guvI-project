@@ -82,7 +82,22 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
-                
+                //export data to json
+                 //fetch table rows from mysql db
+                $read_sql = "select * from users";
+                $read_result = mysqli_query($link, $read_sql) or die("Error in Selecting " . mysqli_error($link));
+
+                //create an array
+                $user_array = array();
+                while($row =mysqli_fetch_assoc($read_result))
+                {
+                    $user_array[] = $row;
+                }
+                // echo json_encode($emparray);
+                $user_json = json_encode($user_array, JSON_PRETTY_PRINT);
+                file_put_contents("user_data.json", $user_json);
+
+
                echo json_encode(array('success' => 1));
             } else{
                 echo json_encode(array('success' => 0));
