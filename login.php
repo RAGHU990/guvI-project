@@ -66,14 +66,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             echo json_encode(array('success' => 1));
                             
                         } else{
-                            // Password is not valid, display a generic error message
-                            // $login_err = "Invalid username or password.";
+                           
                             echo json_encode(array('success' => 0));
                         }
                     }
                 } else{
                     // Username doesn't exist, display a generic error message
-                    //$login_err = "Invalid username or password.";
+                   
                     echo json_encode(array('success' => 0));
 
                 }
